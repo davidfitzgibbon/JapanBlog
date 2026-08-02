@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "social-images": "eleventy-social-images --siteName 'David Fitz Dev' --imageDir 'social' --templatePath social/template.html --stylesPath social/style.css",
+    "social-images": "eleventy-social-images --siteName 'Japan Blog' --imageDir 'social' --templatePath social/template.html --stylesPath social/style.css",
     "dev": "eleventy --serve --quiet",
-    "build": "eleventy ; node moveXML.cjs ; npm run social-images"
+    "build": "eleventy ;"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
