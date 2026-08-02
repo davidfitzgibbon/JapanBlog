@@ -1,0 +1,5 @@
+<svg width="100%" height="100%" viewBox="0 0 100 100">
+    <rect x="-0" y="-0" width="100" height="100" style="fill:rgb(248,190,10);"/>
+    <path d="M87,54l-33,33l0,-33l33,0Z" style="fill:white;"/>
+    <path d="M31.5,87l-16.5,0l0,-33l16.5,0c9.107,0 16.5,7.393 16.5,16.5c0,9.107 -7.393,16.5 -16.5,16.5Z" style="fill:white;"/>
+</svg>

@@ -1,0 +1,36 @@
+---
+layout: page.njk
+imgPath: 0
+tags: []
+---
+<link rel="stylesheet" href="../../public/css/prism.css" />
+
+<div class="article">
+  <h1>{{title}}</h1>
+  
+  <time class="time">{% timeAgo pubDate %}</time>
+  {{ content | safe }}
+</div>
+
+<style>
+  time {
+    display: block;
+    margin: var(--step-2) 0 var(--step-1) 0;
+    padding-block-start: var(--step--4);
+    text-align: end;
+    width: 50%;
+    border-block-start: 2px solid var(--c-gold);
+  }
+  
+  .article {
+    margin: var(--step-2) auto 0;
+    max-width: 70ch;
+    position: relative;
+  }
+
+  @media (min-width: 37.5em) {
+    .article {
+      margin: calc(var(--step-5) * 1.5) auto 0;
+    }
+  }
+</style>

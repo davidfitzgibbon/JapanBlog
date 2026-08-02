@@ -1,0 +1,73 @@
+.codepen {
+  height: 58vw;
+  max-width: 100vw;
+  margin: 1rem 0;
+}
+.pen img {
+  display: block;
+  margin: 0 auto 1rem;
+  aspect-ratio: 1000 / 564;
+}
+.pen button {
+  width: 80%;
+  margin: 1rem auto 0;
+  display: block;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid #777;
+}
+.pen button:hover {
+  color: white;
+  background-image: linear-gradient(120deg, #bada55, salmon);
+  text-decoration-color: orange;
+  animation: colors 1s infinite;
+}
+@keyframes colors {
+  0% {
+    background-image: linear-gradient(120deg, #bada55, salmon);
+  }
+  25% {
+    background-image: linear-gradient(120deg, coral, purple);
+  }
+  50% {
+    background-image: linear-gradient(120deg, orange, green);
+  }
+  75% {
+    background-image: linear-gradient(120deg, lightblue, yellow);
+  }
+  100% {
+    background-image: linear-gradient(120deg, #bada55, salmon);
+  }
+}
+
+.pen p,
+.pen a {
+  text-align: center;
+  display: block;
+}
+.pen p {
+  margin: 0;
+}
+
+.pen {
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.075);
+}
+@media only screen and (min-width: 600px) {
+  .pen button,
+  .pen p,
+  .pen a {
+    display: inline;
+    margin: 0;
+  }
+  .pen button {
+    width: auto;
+    padding: 0.5rem 2rem;
+  }
+  .pen p {
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "mplus";
+  src: url("../fonts/MPLUS1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  /* 	calculations from: https://m2.material.io/inline-tools/color/ */
+  --c-black: #000;
+  --c-white: #fff;
+  --c-red: #f00;
+
+  /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1140,24,1.25,5,5,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+  /* steps */
+  --step--5: clamp(0.4rem, calc(0.37rem + 0.17vw), 0.49rem);
+  --step--4: clamp(0.48rem, calc(0.43rem + 0.26vw), 0.61rem);
+  --step--3: clamp(0.58rem, calc(0.5rem + 0.37vw), 0.77rem);
+  --step--2: clamp(0.69rem, calc(0.59rem + 0.52vw), 0.96rem);
+  --step--1: clamp(0.83rem, calc(0.69rem + 0.72vw), 1.2rem);
+  --step-0: clamp(1rem, calc(0.8rem + 0.98vw), 1.5rem);
+  --step-1: clamp(1.2rem, calc(0.94rem + 1.32vw), 1.88rem);
+  --step-2: clamp(1.44rem, calc(1.09rem + 1.76vw), 2.34rem);
+  --step-3: clamp(1.73rem, calc(1.26rem + 2.35vw), 2.93rem);
+  --step-4: clamp(2.07rem, calc(1.45rem + 3.1vw), 3.66rem);
+  --step-5: clamp(2.49rem, calc(1.67rem + 4.08vw), 4.58rem);
+
+  /* space */
+  --space-s: clamp(1rem, 0.92rem + 0.39vw, 1.25rem);
+  --space-m: clamp(1.5rem, 1.38rem + 0.58vw, 1.875rem);
+  --space-l: clamp(2rem, 1.19rem + 2.82vw, 3.5625rem);
+  /* step-size */
+  --size-step-1: clamp(1.1875rem, 1.01rem + 0.87vw, 1.75rem);
+  --size-step-2: clamp(1.4375rem, 1.11rem + 1.65vw, 2.5rem);
+  --size-step-3: clamp(1.75rem, 1.19rem + 2.82vw, 3.5625rem);
+
+  /* font */
+  --font-base: mplus, system-ui;
+  --tracking: -0.05ch;
+  --tracking-s: -0.075ch;
+
+  /* sizing */
+  --gutter: var(--space-s);
+  --border-radius: var(--size-step-1);
+
+  /* animation */
+  --transition-base: 250ms ease;
+  --transition-movement: 200ms linear;
+  --transition-fade: 200ms ease;
+  --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
+}
+
+body {
+  color: var(--color-black);
+  background: var(--color-white);
+  font-size: var(--step-0);
+  font-family: var(--font-base);
+  font-variation-settings: "wght" 500;
+  line-height: 1.4;
+  letter-spacing: var(--tracking);
+  padding: var(--step-1);
+  max-width: 70ch;
+  margin: 0 auto 0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+  letter-spacing: var(--tracking-s);
+}
+
+h1 {
+  font-size: var(--step-5);
+}
+h2 {
+  font-size: var(--step-4);
+}
+h3 {
+  font-size: var(--step-2);
+  margin-bottom: var(--step--3);
+  letter-spacing: var(--tracking);
+}
+
+h1,
+h2,
+h3 {
+  max-width: 20ch;
+}
+p,
+li,
+blockquote:not([class]),
+.article .demo {
+  max-width: 50ch;
+}
+q {
+  font-style: italic;
+}
+.article p,
+.article .demo {
+  margin-block-end: var(--step-0);
+}
+.demo {
+  position: relative;
+}
+ul {
+  padding-inline-start: var(--step-0);
+}
+li {
+  margin-block-end: var(--step--2);
+}
+
+blockquote:not([class]) {
+  font-family: var(--base-font);
+  font-size: var(--step-2);
+}
+
+blockquote:not([class]) p:last-of-type {
+  font-size: var(--size-1);
+  font-weight: normal;
+}
+
+code {
+  font-size: var(--step-0);
+}
+p code {
+  background: hsl(230, 1%, 96%);
+  padding: 0 0.2em;
+}
+pre .token {
+  white-space: break-spaces;
+  word-break: break-word;
+}
+
+a {
+  color: var(--c-black);
+  text-decoration-color: var(--c-red);
+  text-decoration-thickness: 0.1em;
+}
+a:hover {
+  text-decoration: none;
+  background: var(--c-red);
+  color: var(--c-white);
+}
+:focus {
+  outline: 2px solid;
+  outline-offset: 0.3ch;
+}
+:target {
+  scroll-margin-top: 2ex;
+}
+
+[role="list"] {
+  padding: 0;
+}
+
+input {
+  padding: var(--step--4) var(--step--2);
+}
+input:focus {
+  outline-color: var(--c-gold);
+}
+
+canvas {
+  display: block;
+  width: 100% !important;
+  max-width: 100%;
+  height: auto !important;
+  aspect-ratio: 600 / 300;
+}

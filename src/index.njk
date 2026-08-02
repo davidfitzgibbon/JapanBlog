@@ -1,0 +1,22 @@
+---
+layout: page.njk
+---
+
+<div class="list grid" data-layout="2">
+{% for post in collections.post | reverse %}
+<a href="{{post.url}}">
+  <article class="article">
+    <header>
+      <h1 class="title">{{ post.data.title }}</h1>
+
+      {% loc post.data.loc %}
+
+      <img style="heading-img" src="{{post.data.img}}">
+
+      {% biTime post.data.pubDate %}
+    </header>
+  </article>
+</a>
+
+{% endfor %}
+ </div> {# end list #}

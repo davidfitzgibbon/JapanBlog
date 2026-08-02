@@ -1,0 +1,36 @@
+/* COMPOSITION */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(
+    var(--grid-placement, auto-fill),
+    minmax(var(--grid-min-item-size, 16rem), 1fr)
+  );
+  gap: var(--gutter, var(--step-1));
+}
+.grid[data-layout="2"] {
+  --grid-placement: auto-fit;
+  --grid-min-item-size: clamp(16rem, 50vw, 26rem);
+}
+.grid[data-layout="3"] {
+  --grid-placement: auto-fit;
+  --grid-min-item-size: clamp(16rem, 33%, 20rem);
+}
+.grid[data-layout="4"] {
+  --grid-placement: auto-fit;
+  --grid-min-item-size: clamp(16rem, 15%, 18rem);
+}
+.grid[data-rows="masonry"] {
+  grid-template-rows: masonry;
+  align-items: start;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: calc(var(--step-5) * 2) 1fr;
+  gap: var(--gutter, var(--step-1));
+}
+@media (max-width: 600px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

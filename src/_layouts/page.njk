@@ -1,0 +1,63 @@
+---
+title: LoFi Codes
+description: Creative Development
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+		<title>{% heading title %}</title>
+
+		<meta
+			property="og:image"
+			content="https://davidfitz.dev/social/{{ title | slug }}.png"
+		/>
+		<meta
+			name="twitter:image"
+			content="https://davidfitz.dev/social/{{ title | slug }}.png"
+		/>
+
+		<meta name="theme-color" content="#f8be0a" />
+
+		<meta name="description" content="{{ description }}" />
+		<meta property="og:title" content="{% heading title %}" />
+		<meta property="og:description" content="{{ description }}" />
+		<meta property="og:image" content="/social.png" />
+		<meta property="og:image:alt" content="{{ description }}" />
+		<meta property="og:locale" content="en_IE" />
+		<meta property="og:type" content="website" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="og:url" content={{
+			"https://davidfitz.dev" + page.url
+		}}
+		/> <link rel="canonical" href={{
+			"https://davidfitz.dev" + page.url
+		}}
+		/>
+		<link
+			rel="alternate"
+			type="application/rss+xml"
+			title="LoFi Codes"
+			href="https://davidfitz.dev/feed.xml"
+		/>
+
+		<link rel="webmention" href="https://webmention.io/lofi.codes/webmention" />
+
+		<link rel="stylesheet" href="/css/style.css" />
+	</head>
+	<body>
+		<!-- <Menu /> -->
+		<div class="flow">
+			{% include 'components/Logo.html' %}
+			<div>
+				{{ content | safe }}
+			</div>
+		</div>
+		{% include 'components/Footer.njk' %}
+
+	</body>
+</html>

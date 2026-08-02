@@ -1,0 +1,9 @@
+.youtubeembed {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}

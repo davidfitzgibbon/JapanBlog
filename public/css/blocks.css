@@ -1,0 +1,40 @@
+/* BLOCKS */
+
+.article aside {
+  background: var(--c-grey-900);
+  color: var(--c-gold-300);
+  /* padding: var(--step--1) var(--step--2); */
+}
+.article {
+  header {
+    h1 {
+      font-variation-settings: "wght" 900;
+      margin: 0 0 var(--step--2);
+    }
+
+    .time,
+    .loc,
+    .heading-img {
+      text-transform: uppercase;
+      margin: var(--step--2) 0 0;
+      display: inline;
+    }
+  }
+}
+.list {
+  article {
+    margin: 0 0 0;
+  }
+  a {
+    text-decoration: none;
+    background: none;
+    color: black;
+  }
+  a:hover {
+    h1 {
+      text-decoration: underline;
+      text-decoration-color: var(--c-red);
+      text-decoration-thickness: 0.1em;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[build]
+  publish = "_site/"
+
+[[redirects]]
+  from = "/doodles/*"
+  to = "/pens/*"
+  status = 200
+
+[[redirects]]
+  from = "/doodle/*"
+  to = "/pen/*"
+  status = 200

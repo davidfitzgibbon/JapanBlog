@@ -1,0 +1,22 @@
+<footer>
+  <h4>
+    Follow me on <a href="https://www.youtube.com/c/loficodes">YouTube</a> or <a
+      href="https://vis.social/@lofi">Mastodon</a
+    >
+  </h4>
+  <p @html="'David Fitzgibbon ' + date + ' &copy;'"></p>
+  
+</footer>
+
+<style>
+  footer h4 {
+    margin-bottom: 1rem;
+  }
+  footer {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  footer p {
+    max-width: revert;
+  }
+</style>

@@ -1,0 +1,28 @@
+---
+import { SocialImage } from "astro-social-images";
+
+const { title } = Astro.props;
+console.log(Astro.props);
+---
+
+<SocialImage
+  backgroundColor="#ffffff"
+  images={[
+    {
+      url: "public/social_base.png",
+      attributes: { top: 10, left: 10 },
+    },
+  ]}
+  texts={[
+    {
+      content: title,
+      attributes: {
+        x: "55",
+        y: "105",
+        "font-size": "50px",
+        fill: "#262626",
+        "font-family": "system-ui",
+      },
+    },
+  ]}
+/>
