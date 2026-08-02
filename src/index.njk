@@ -3,7 +3,7 @@ layout: page.njk
 ---
 
 <div class="list grid" data-layout="2">
-{% for post in collections.post | reverse %}
+{% for post in collections.postsByDate | reverse %}
 <a href="{{post.url}}">
   <article class="article">
     <header>

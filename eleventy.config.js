@@ -54,6 +54,14 @@ module.exports = function (eleventyConfig) {
     return `https://davidfitz.dev`;
   });
 
+  // COLLECTIONS
+  eleventyConfig.addCollection("postsByDate", function (collectionApi) {
+    return collectionApi
+      .getFilteredByTags("post")
+      .filter(filterByPreview)
+      .sort(sortByPubDate);
+  });
+
   // Return your Object options:
   return {
     dir: {
