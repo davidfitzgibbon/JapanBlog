@@ -1,5 +1,5 @@
 ---
-title: LoFi Codes
+title: Japan Blog
 description: Creative Development
 ---
 
@@ -10,18 +10,18 @@ description: Creative Development
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
-		<title>{% heading title %}</title>
+		<title>{{ title }}</title>
 
 		<meta
 			property="og:image"
-			content="https://davidfitz.dev/social/{{ title | slug }}.png"
+			content="https://japan.davidfitz.dev/social/{{ title | slug }}.png"
 		/>
 		<meta
 			name="twitter:image"
-			content="https://davidfitz.dev/social/{{ title | slug }}.png"
+			content="https://japan.davidfitz.dev/social/{{ title | slug }}.png"
 		/>
 
-		<meta name="theme-color" content="#f8be0a" />
+		<meta name="theme-color" content="#f00" />
 
 		<meta name="description" content="{{ description }}" />
 		<meta property="og:title" content="{% heading title %}" />
@@ -32,17 +32,16 @@ description: Creative Development
 		<meta property="og:type" content="website" />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta property="og:url" content={{
-			"https://davidfitz.dev" + page.url
+			"https://japan.davidfitz.dev" + page.url
 		}}
 		/> <link rel="canonical" href={{
-			"https://davidfitz.dev" + page.url
+			"https://japan.davidfitz.dev" + page.url
 		}}
 		/>
 		<link
 			rel="alternate"
 			type="application/rss+xml"
-			title="LoFi Codes"
-			href="https://davidfitz.dev/feed.xml"
+			title="Japan Blog"
 		/>
 
 		<link rel="webmention" href="https://webmention.io/lofi.codes/webmention" />

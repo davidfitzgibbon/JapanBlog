@@ -1,6 +1,5 @@
-function heading (title) {
-  let heading = title.length ? ` - ${title}` : "";
-  return "David Fitz" + heading;
-};
+function heading(title) {
+  return heading;
+}
 
 module.exports = heading;
