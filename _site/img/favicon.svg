@@ -1,24 +1,4 @@
-<style>
-  .logo {
-    font-variation-settings: "wght" 900;
-    text-decoration: none;
-    text-transform: uppercase;
-    span {
-      color: var(--c-red);
-    }
-    :hover {
-      background: none;
-      color: black;
-    }
-    svg {
-      height: 0.75em;
-    }
-  }
-</style>
-
-<div class="flow">
-  <a href="/" class="logo">
-    <svg viewBox="0 0 50 45">
+<svg viewBox="0 0 50 45">
       <path
         d="M36.94,14.18c2.986,-2.986 7.834,-2.986 10.82,0c2.986,2.986 2.986,7.834 0,10.82c2.986,2.986 2.986,7.834 0,10.82c-2.986,2.986 -7.834,2.986 -10.82,0l-10.82,-10.82l10.82,-10.82Z"
         style="fill: rgb(255, 0, 0)"
@@ -38,6 +18,3 @@
         style="fill: rgb(255, 0, 0)"
       />
     </svg>
-    Japan<span>Blog</span>
-  </a>
-</div>
