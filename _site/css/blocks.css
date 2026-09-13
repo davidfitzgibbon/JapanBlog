@@ -6,6 +6,7 @@
   /* padding: var(--step--1) var(--step--2); */
 }
 .article {
+  font-variation-settings: "wght" 300;
   header {
     h1 {
       font-variation-settings: "wght" 900;

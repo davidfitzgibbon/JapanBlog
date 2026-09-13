@@ -50,12 +50,19 @@
     font-variation-settings: "wght" 900;
     text-decoration: none;
     text-transform: uppercase;
+    fill: var(--c-red);
     span {
       color: var(--c-red);
     }
-    :hover {
-      background: none;
-      color: black;
+    &:hover {
+      background: var(--c-red);
+      color: var(--c-black);
+      svg path {
+        fill: white;
+      }
+      span {
+        color: var(--c-white);
+      }
     }
     svg {
       height: 0.75em;
@@ -68,21 +75,17 @@
     <svg viewBox="0 0 50 45">
       <path
         d="M36.94,14.18c2.986,-2.986 7.834,-2.986 10.82,0c2.986,2.986 2.986,7.834 0,10.82c2.986,2.986 2.986,7.834 0,10.82c-2.986,2.986 -7.834,2.986 -10.82,0l-10.82,-10.82l10.82,-10.82Z"
-        style="fill: rgb(255, 0, 0)"
       />
       <path
         d="M13.06,35.82c-2.986,2.986 -7.834,2.986 -10.82,-0c-2.986,-2.986 -2.986,-7.834 0,-10.82c-2.986,-2.986 -2.986,-7.834 0,-10.82c2.986,-2.986 7.834,-2.986 10.82,0l10.82,10.82l-10.82,10.82Z"
-        style="fill: rgb(255, 0, 0)"
       />
       <path
         d="M14.18,13.06c-2.986,-2.986 -2.986,-7.834 0,-10.82c2.986,-2.986 7.834,-2.986 10.82,-0c2.986,-2.986 7.834,-2.986 10.82,0c2.986,2.986 2.986,7.834 0,10.82l-10.82,10.82l-10.82,-10.82Z"
-        style="fill: rgb(255, 0, 0)"
       />
       <path
         d="M24.11,26.75c-0,-0.491 0.399,-0.89 0.89,-0.89c0.491,-0 0.89,0.399
       0.89,0.89l0,16.421c-0,0.491 -0.399,0.89 -0.89,0.89c-0.491,-0 -0.89,-0.399
       -0.89,-0.89l0,-16.421Z"
-        style="fill: rgb(255, 0, 0)"
       />
     </svg>
     Japan<span>Blog</span>
@@ -93,60 +96,20 @@
 				
 <div class="list grid" data-layout="2">
 
-<a href="/posts/third/">
+<a href="/posts/week1/">
   <article class="article">
     <header>
-      <h1 class="title">Third post a little more normal.</h1>
+      <h1 class="title">Week 1 - The Start</h1>
 
       
-    <span class="loc">tokyo · 東京</span>
+    <span class="loc">machida · 町田</span>
   
 
-      <img style="heading-img" src="/img/earth-moon-pixelated.png">
+      <img style="heading-img" src="/img/beforethetrip.png">
 
       
-  <time class="time" data-pubdate="Wed Aug 12 2026 08:52:00 GMT+0100 (Irish Standard Time)">
-    12 August · 8月12日
-  </time>
-    </header>
-  </article>
-</a>
-
-
-<a href="/posts/a-second-post/">
-  <article class="article">
-    <header>
-      <h1 class="title">A second post that has a much longer heading so I can figure that all out in case it becomes and issue later.</h1>
-
-      
-    <span class="loc">tokyo · 東京</span>
-  
-
-      <img style="heading-img" src="/img/formula1-1.png">
-
-      
-  <time class="time" data-pubdate="Fri Jul 10 2026 08:52:00 GMT+0100 (Irish Standard Time)">
-    10 July · 7月10日
-  </time>
-    </header>
-  </article>
-</a>
-
-
-<a href="/posts/first-week/">
-  <article class="article">
-    <header>
-      <h1 class="title">First week!</h1>
-
-      
-    <span class="loc">tokyo · 東京</span>
-  
-
-      <img style="heading-img" src="/img/first-week.png">
-
-      
-  <time class="time" data-pubdate="Sat Jun 10 2023 08:52:00 GMT+0100 (Irish Standard Time)">
-    10 June · 6月10日
+  <time class="time" data-pubdate="Sun Sep 13 2026 20:38:00 GMT+0900 (Japan Standard Time)">
+    13 September · 9月13日
   </time>
     </header>
   </article>
