@@ -45,6 +45,14 @@ More importantly, it felt like we could really starting doing what we wanted, ra
 
 The big success of the day was finding a place that does a mapo tofu for Eni!
 
+{% fig "/img/week1-tofu.jpeg" "A lovely bowl of mapo tofu, rice, soup, salad and a dessert" %}
+
+And I got a nice tantanmen ramen too.
+
+{% fig "/img/week1-tantanmen.jpeg" "A massive bowl of Tantanmen Ramen, fried rice and even dessert" %}
+
+All this for less than €10! We'll definintely be coming back.
+
 ---
 
 This entry might not have been the most thrillingly written, but we're still pretty broken! Will hopefully have a little more energy for it next week!

@@ -21,6 +21,23 @@
       display: inline;
     }
   }
+  figure {
+    p {
+      display: contents;
+      margin: 0;
+    }
+    img {
+      margin-bottom: var(--step--2);
+    }
+    figcaption {
+      margin-top: calc(var(--step--2) * -1);
+      font-size: var(--step--1);
+
+      font-variation-settings: "wght" 500;
+
+      opacity: 0.5;
+    }
+  }
 }
 .list {
   article {
