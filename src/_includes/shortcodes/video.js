@@ -1,6 +1,6 @@
 function locationSC(path, alt) {
   return `<figure>
-  <img loading="lazy" src="${path}" alt="${alt}">
+  <video loading="lazy" controls src="${path}" alt="${alt}">
   <figcaption>${alt}</figcaption>
 </figure>
   `;

@@ -6,6 +6,7 @@ function locationSC(loc) {
     kanagawa: "神奈川",
     ireland: "アイルランド",
     machida: "町田",
+    yokohama: "横浜",
   };
   return `
     <span class="loc">${loc} · ${locs[loc]}</span>

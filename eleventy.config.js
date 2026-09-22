@@ -16,6 +16,7 @@ const timeAgoSC = require("./src/_includes/shortcodes/timeAgo.js");
 const biTimeSC = require("./src/_includes/shortcodes/biTime.js");
 const locSC = require("./src/_includes/shortcodes/loc.js");
 const figSC = require("./src/_includes/shortcodes/fig.js");
+const videoSC = require("./src/_includes/shortcodes/video.js");
 const imgSC = require("./src/_includes/shortcodes/img.js");
 const youtube = require("./src/_includes/shortcodes/youtube.js");
 const codepen = require("./src/_includes/shortcodes/codepen.js");
@@ -44,6 +45,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("biTime", biTimeSC);
   eleventyConfig.addShortcode("loc", locSC);
   eleventyConfig.addShortcode("fig", figSC);
+  eleventyConfig.addShortcode("video", videoSC);
   eleventyConfig.addShortcode("img", imgSC);
   eleventyConfig.addShortcode("youtube", youtube);
   eleventyConfig.addShortcode("codepen", codepen);
