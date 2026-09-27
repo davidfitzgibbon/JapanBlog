@@ -6,6 +6,7 @@ function locationSC(loc) {
     kanagawa: "神奈川",
     ireland: "アイルランド",
     machida: "町田",
+    shinjuku: "新宿",
     yokohama: "横浜",
   };
   return `
