@@ -47,6 +47,7 @@
     text-decoration: none;
     background: none;
     color: black;
+    align-self: end;
   }
   a:hover {
     h1 {
