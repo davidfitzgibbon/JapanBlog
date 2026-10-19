@@ -2,7 +2,7 @@
 title: Week 1 - The Start
 pubDate: 2026-09-13T11:38:00.000Z
 loc: machida
-img: /img/beforethetrip.png
+img: /img/w1/beforethetrip.png
 ---
 
 So it's Sunday night, 5 days into the adventure to Japan. We're pretty tired, but happy, excited and looking forward to what's next.
@@ -45,11 +45,11 @@ More importantly, it felt like we could really starting doing what we wanted, ra
 
 The big success of the day was finding a place that does a mapo tofu for Eni!
 
-{% fig "/img/week1-tofu.jpeg" "A lovely bowl of mapo tofu, rice, soup, salad and a dessert" %}
+{% fig "/img/w1/week1-tofu.jpeg" "A lovely bowl of mapo tofu, rice, soup, salad and a dessert" %}
 
 And I got a nice tantanmen ramen too.
 
-{% fig "/img/week1-tantanmen.jpeg" "A massive bowl of Tantanmen Ramen, fried rice and even dessert" %}
+{% fig "/img/w1/week1-tantanmen.jpeg" "A massive bowl of Tantanmen Ramen, fried rice and even dessert" %}
 
 All this for less than €10! We'll definintely be coming back.
 

@@ -2,7 +2,7 @@
 title: Second Week
 pubDate: 2026-09-22T14:42:00.000Z
 loc: yokohama
-img: /img/week2-yokohama.png
+img: /img/w2/week2-yokohama.png
 ---
 
 It seems like much more than nine days since the last one of these!
@@ -15,15 +15,15 @@ On Thursday, I went to the Minatomirai campus. It's a new part of town, built on
 
 The campus building is really modern, only about 5 years old. A fun thing for me is that it's surrounded by a RollsRoyce garage and not one but TWO Porsche garages. Glorious!
 
-{% fig "/img/week2-campus1.jpeg" "Nice bright minimal foyer" %}
+{% fig "/img/w2/week2-campus1.jpeg" "Nice bright minimal foyer" %}
 
 The foyer of the campus is really nice and bright. There are various shops with stationary supplies, a cafe, some workshops, and I even have an open session there on a Friday morning where students, or even the public, can join to learn some English.
 
-{% fig "/img/week2-campus2.jpeg" "7th floor terrace" %}
+{% fig "/img/w2/week2-campus2.jpeg" "7th floor terrace" %}
 
 Several of the floors have really nice terraces, often attached to a cafe or restaurant.
 
-{% fig "/img/week2-campus3.jpeg" "View from the top" %}
+{% fig "/img/w2/week2-campus3.jpeg" "View from the top" %}
 
 And the canteen on the 21st floor is said to even have views of Mt. Fuji on a clear day. I _think_ that's the start of Fuji on the right of the picture there.
 
@@ -47,7 +47,7 @@ We werent sure how seriously to take it, but 95% of people said not to take any 
 
 That's exactly what we did. On the day it was all kicking off (Monday), I got some alerts on my phone.
 
-{% fig "/img/week2-alert.jpeg" "Warnings about the coming typhoon" %}
+{% fig "/img/w2/week2-alert.jpeg" "Warnings about the coming typhoon" %}
 
 After a quick Google Translate we could see that it was a warning for elderly people to evacuate if they live in areas in danger of landslide. Nothing really for us to worry about.
 
@@ -59,14 +59,14 @@ Happy to have experienced really mild versions of both of these kinds of natural
 
 So then today, we were free again on a nice sunny day.
 
-{% fig "/img/week2-machida.jpeg" "The main shopping street in Machida" %}
+{% fig "/img/w2/week2-machida.jpeg" "The main shopping street in Machida" %}
 
 I went out shopping for more things we need for the apartment, hitting the main shopping street. Several of the massive building are department stores, and they all site above the train station. The roads are very busy, so there's a set of walkways build one story up. The photo above being taken from one that spans a whole x5 way junction.
 
-{% fig "/img/week2-omurice.jpeg" "Braised beef omurice" %}
+{% fig "/img/w2/week2-omurice.jpeg" "Braised beef omurice" %}
 
 We're also on the hunt for an amazing Omurice. We tried this one today. There wasnt a great vegetarian option for Eni. I got a braised beef one, with gravey and veggies. It was ok. Nicely filling. But not the glorious molten omelette of our dreams. It was also a little expensive at about €11.
 
-{% video "/img/week2-hidden-shrine.mp4" "A tiny shrine, tucked away in a hidden corner" %}
+{% video "/img/w2/week2-hidden-shrine.mp4" "A tiny shrine, tucked away in a hidden corner" %}
 
 I also nearly missed this shrine that was just tucked around a corner! Had I not been looking for a particular shop, I would have missed it!
