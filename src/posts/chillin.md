@@ -23,7 +23,7 @@ The tuna was maybe the worst part. A little dry and chewy. That's where the nega
 
 {% fig "/img/w7/ro3.jpg" "Pretty uninspiring" %}
 
-I started with this salmon, mozzerella and basil pesto number, kinda expecting it to be no so great. A novely to try, and then pass over. But it was amazing! All the flavours so gentle, but matched perfectly. Not only did I start with this, but I finished with it too. The rice along was delicious, tasting of basil on its own, impleying the rice in this place is individually flavoured to match each dish!
+I started with this salmon, mozzerella and basil pesto number, kinda expecting it to be not so great. A novely to try, and then pass over. But it was amazing! All the flavours so gentle, but matched perfectly. Not only did I start with this, but I finished with it too. The rice alone was delicious, tasting of basil on its own, implying the rice in this place is individually flavoured to match each dish!
 
 Genuinely one of the nicest things I've ever eaten!
 
