@@ -31,7 +31,7 @@ Genuinely one of the nicest things I've ever eaten!
 
 Next up was some simple chicken with a spicy sauce.
 
-Spice in Japanese restaurants is one of two levels in Japan. Zero or a billion. This place was at zero. The chicken had TWO symbols for fire and chili on the menu. I don't think there was any spice at all. But that's ok, because holy heck it was tasty! I dont know how they can keep so much juicy fat inside through the cooking process, but also not have the fat leave a horrible texture. It was super tender, all the right flavours, and lovely crisp on the outside.
+Spice in Japanese restaurants is one of two levels in Japan. Zero or a billion. This place was at zero. The chicken had TWO symbols for fire and chili on the menu. I don't think there was any spice at all. But that's ok, because holy heck it was tasty! I dont know how they can keep so much juicy fat inside through the cooking process, but also not have the fat leave a horrible texture. It was super tender, all the right flavours, and a lovely crisp on the outside.
 
 {% fig "/img/w7/ro2.jpg" "Glorious karaage (fried chicken.)" %}
 
