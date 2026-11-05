@@ -1,5 +1,6 @@
 function locationSC(loc) {
   const locs = {
+    chinatown: "チャイナタウン",
     hakuraku: "白楽",
     ireland: "アイルランド",
     kyoto: "京都",
